@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(images/dark-blue-gradient-image-with-a-plain-background-05f5gsvze0zmqe66.jpg);
+
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Ctname {
+    width: 300px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    outline: none;
+    font-size: larger;
+    font-weight: 500;
+
+}
+
+.search {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80px;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/blbg.png);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.Weather {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.error {
+    display: none;
+    color: rgb(146, 37, 37);
+    font-size: 25px;
+
+}
+
+.responses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+
+
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    margin: 10px;
+    color: white;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.humidity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.humidity img {
+    height: 60px;
+}
+
+.humid-1 {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+
+.humid-2 {
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+.wind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wind img {
+    height: 60px;
+}
+
+.wind-1 {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+
+.wind-2 {
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+@media only screen and (max-width:850px) {
+    body {
+        display: flex;
+        position: relative;
+    }
+
+    .container {
+        position: fixed;
+        top: 10%;
+        padding: 15px;
+    }
+
+    .Ctname {
+        width: 40vw;
+        height: 6vh;
+    
+    }
+
+    .search {
+        height: 6vh;
+        width: 12vw;
+    }
+    .responses{
+        margin: 0px;
+    }
+
+}
